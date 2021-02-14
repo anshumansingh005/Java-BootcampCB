@@ -1,5 +1,4 @@
 package Print_reverse;
-
 import java.util.Scanner;
 
 public class ReverseNum {
