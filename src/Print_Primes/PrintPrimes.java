@@ -3,25 +3,36 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class PrintPrimes{
-	public static void main(String args[]){
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		boolean[] prime = new boolean[N];
-		
-		for(int i = 0; i< prime.length; i++)
-			prime[i] = true;
-		
-		int i = 2;
-		while(i < Math.sqrt(N)){
-			if(prime[i] == true){
-				for(int j = (i*i); j<N; j++)
-					prime[j] = false;
-				
-			} i++;
-		}
-		for(int k = 2; k<prime.length; k++)
-			if(prime[k] == true
-				System.out.println(i);
-	}
+ public static void main(String args[]){   
+    Scanner sc = new Scanner(System.in);
+        
+    int a  = 2, b, i, j,flag;
+    
+    b = sc.nextInt(); 
+    if (a == 1) {
+        System.out.println(a);
+        a++;
+        if (b >= 2) {
+            System.out.println(a);
+            a++;
+        }
+    }
+    if (a == 2)
+        System.out.println(a);
+    if (a % 2 == 0)
+        a++;
+    for (i = a; i <= b; i = i + 2) {
+ 
+         flag = 1;
+           for (j = 2; j * j <= i; ++j) {
+            if (i % j == 0) {
+                flag = 0;
+                break;
+            }
+        }
+     if (flag == 1)
+            System.out.println(i);
+    }
+}
 
 }
