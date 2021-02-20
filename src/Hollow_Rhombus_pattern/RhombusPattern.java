@@ -1,8 +1,8 @@
 package Hollow_Rhombus_pattern;
 import java.util.Scanner;
 
-public class RhomnusPattern{
-	public static void main(String as[]){
+public class RhombusPattern {
+	public static void main(String[] args){
 		
 Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();

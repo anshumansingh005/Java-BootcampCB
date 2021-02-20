@@ -1,7 +1,7 @@
-package Revising_Qudaratic_Equations;
+package Revising_Quadratic_Equations;
 import java.util.Scanner;
 import java.lang.Math.*;
-public class QuadratiEquations{
+public class QuadraticEquations {
 	public static void main(String args[]){
 		Scanner sc  = new Scanner(System.in);
 		int a  = sc.nextInt();

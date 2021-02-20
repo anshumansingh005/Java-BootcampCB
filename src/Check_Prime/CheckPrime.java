@@ -1,6 +1,5 @@
 package Check_Prime;
 import java.util.Scanner;
-import Java.lang.Math;
  
 public class CheckPrime{
 	public static boolean isPrime(int n){
