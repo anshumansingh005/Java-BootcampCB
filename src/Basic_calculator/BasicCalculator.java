@@ -16,7 +16,7 @@ public class BasicCalculator{
 
   }
 
-  public static oepration(char ch){
+  public static void operation(char ch){
     int a = sc.nextInt();
     int b = sc.nextInt();
     int res = 0;
