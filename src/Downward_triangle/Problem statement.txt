@@ -1,0 +1,18 @@
+Write a program to print given pattern by taking input N.
+
+Input Format
+The first line contains an integer N.
+
+Constraints
+Output Format
+Display the pattern as result.
+
+Sample Input
+6
+Sample Output
+* * * * * * 
+ * * * * * 
+  * * * * 
+   * * * 
+    * * 
+     * 
