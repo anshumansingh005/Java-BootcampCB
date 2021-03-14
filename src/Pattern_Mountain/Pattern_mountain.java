@@ -1,5 +1,6 @@
+package Pattern_Mountain;
 import java.util.*;
-public class Main {
+public class Pattern_mountain {
     public static void main(String args[]) {
             Scanner sc = new Scanner(System.in);
     int i, j, k = 1;

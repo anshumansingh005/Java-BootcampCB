@@ -1,4 +1,4 @@
-package Mamohan_loves_pattern;
+package Manmohan_loves_pattern;
 import java.util.Scanner;
 class ManmohanPattern{
   public static void main(String[] or){
@@ -10,7 +10,7 @@ class ManmohanPattern{
         System.out.println(1);
       else {
         for(j = 0; j<=i; j++){
-          if(j=0 || j==i)
+          if(j==0 || j==i)
             System.out.print(i);
           else
             System.out.print(0);

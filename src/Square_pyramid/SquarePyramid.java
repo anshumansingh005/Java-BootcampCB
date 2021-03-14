@@ -1,5 +1,6 @@
 package Square_pyramid;
-import java.io.Scanner;
+
+import java.util.Scanner;
 
 public class SquarePyramid{
 	public static void printnums(int n){
