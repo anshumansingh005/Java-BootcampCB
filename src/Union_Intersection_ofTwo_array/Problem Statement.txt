@@ -1,0 +1,25 @@
+Given two sorted arrays of different sizes, print their union and intersection.
+An union of two arrays will be the set containing all elements of both the arrays (no duplicates).
+An Intersection of two arrays will be the set of elements that are present in both the arrays (no duplicates).
+Print both the union and the intersection in increasing order.
+
+Input Format
+First line contains size of first array.
+Second line contains the elements of the first array.
+Third line contains size of second array.
+Fourth line contains the elements of the second array.
+
+Constraints
+1 <= Size of arrays <= 1000
+
+Output Format
+Print the union of the two arrays in first line and intersection in second line. Both should be printed in increasing order.
+
+Sample Input
+5
+1 2 4 6 10
+3
+8 9 10
+Sample Output
+1 2 4 6 8 9 10
+10
